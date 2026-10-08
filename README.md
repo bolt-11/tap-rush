@@ -104,6 +104,8 @@ app/src/main/java/com/boltz/maliciousapp/
 adb install app/build/outputs/apk/debug/app-debug.apk
 ```
 
+Alternatively, grab a prebuilt APK from the Releases page.
+
 ## Disclaimer
 
 > **This project is for educational and authorized security testing purposes only.**

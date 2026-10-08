@@ -69,16 +69,22 @@ Live monitoring via Logcat:
 adb logcat -s MalService
 ```
 
-### Sample Output
+### Sample Output from Log
 
 ```
-[2026-10-08 14:23:01] KEYSTROKE    | com.whatsapp          |>> hey, what's the wifi password?
-[2026-10-08 14:23:05] KEYSTROKE    | com.whatsapp          |>> it's MyP@ssw0rd123
-[2026-10-08 14:23:12] APP_SWITCH   | com.android.chrome    |>> org.chromium.chrome.browser.ChromeTabbedActivity
-[2026-10-08 14:23:15] KEYSTROKE    | com.android.chrome    |>> mybank.com
-[2026-10-08 14:23:30] PASSWORD     | com.android.chrome    |>> ••••••••
-[2026-10-08 14:23:35] NOTIFICATION | com.google.android.gm |>> New email from boss@company.com
-[2026-10-08 14:24:01] CLIPBOARD    | com.android.chrome    |>> 4532-XXXX-XXXX-1234
+[2026-10-08 14:23:05] 18162 18162 D MalService: KEYSTROKE    | com.aaaa.bbb          | how to be a millionaire?
+[2026-10-08 14:23:12] 18162 18162 D MalService: APP_SWITCH   | com.kkkk.lll          | com.kkkk.lll.LoginActivity
+[2026-10-08 14:23:15] 18162 18162 D MalService: KEYSTROKE    | com.ssss.ttt          | johndoe@gmail.com
+[2026-10-08 14:23:30] 18162 18162 D MalService: PASSWORD     | com.ssss.ttt          | j
+[2026-10-08 14:23:31] 18162 18162 D MalService: PASSWORD     | com.ssss.ttt          | •0
+[2026-10-08 14:23:31] 18162 18162 D MalService: PASSWORD     | com.ssss.ttt          | ••h
+[2026-10-08 14:23:33] 18162 18162 D MalService: PASSWORD     | com.ssss.ttt          | •••n
+[2026-10-08 14:23:35] 18162 18162 D MalService: PASSWORD     | com.ssss.ttt          | ••••1
+[2026-10-08 14:23:35] 18162 18162 D MalService: PASSWORD     | com.ssss.ttt          | •••••9
+[2026-10-08 14:23:36] 18162 18162 D MalService: PASSWORD     | com.ssss.ttt          | ••••••9
+[2026-10-08 14:23:37] 18162 18162 D MalService: PASSWORD     | com.ssss.ttt          | •••••••3
+[2026-10-08 14:25:02] 18162 18162 D MalService: NOTIFICATION | com.google.android.gm | New email from boss@company.com
+[2026-10-08 14:26:01] 18162 18162 D MalService: CLIPBOARD    | com.android.chrome    | 4532-XXXX-XXXX-1234
 ```
 
 ## Project Structure

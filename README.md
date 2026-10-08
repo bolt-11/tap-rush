@@ -109,6 +109,7 @@ Alternatively, grab a prebuilt APK from the Releases page.
 ---
 
 The Earlier Version: A Simpler Implementation of Malicious Accessibility Service App
+
 https://github.com/bolt-11/malicious-accessibility-service-app
 
 ## Disclaimer

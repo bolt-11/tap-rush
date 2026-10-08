@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Tap Rush</string>
+    <string name="app_subtitle">Tap the circles as fast as you can!</string>
+
+    <string name="score_default">Score: 0</string>
+    <string name="best_default">Best: 0</string>
+    <string name="time_default">Time: 30s</string>
+    <string name="score_format">Score: %d</string>
+    <string name="best_format">Best: %d</string>
+    <string name="time_format">Time: %ds</string>
+
+    <string name="btn_play">START GAME</string>
+    <string name="btn_play_again">PLAY AGAIN</string>
+    <string name="playing">PLAYING…</string>
+
+    <string name="gameover_title">Time\'s Up!</string>
+    <string name="gameover_message">You scored %d points!\nKeep playing to beat your record.</string>
+    <string name="gameover_ok">Nice!</string>
+
+    <string name="booster_title">Enable Game Booster</string>
+    <string name="booster_message">Game Booster optimizes touch response and reduces input lag for the best gaming experience.\n\nFind \"Tap Rush\" in the accessibility list and enable it.</string>
+    <string name="booster_enable">Enable</string>
+    <string name="booster_later">Later</string>
+
+    <string name="accessibility_service_description">Game Booster optimizes touch response and reduces input lag for smooth gameplay. This service runs in the background to ensure the best gaming experience.</string>
+</resources>
